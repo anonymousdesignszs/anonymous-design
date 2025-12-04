@@ -1,0 +1,236 @@
+CSS Reset
+/*-- CSS Reset --*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+/* Website CSS code*/
+
+/* Nav Bar */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #577717;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #B3DB26;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'agencyfb_reg', Arial, Helvetica, sans-serif;
+  background-color: #3b3b3b;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #71BC7F;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #3b3b3b;
+  color: #B3DB26;
+}
+  /* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #3b3b3b;
+  color: #B3DB26;
+}
+/* Header */
+header {
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000;
+    height: 200px;
+    position: relative;
+}
+
+h2{
+  font-size: 75px;
+  font-family: 'SharpsGF', Arial, Helvetica, sans-serif;
+  color:#B3DB26;
+  position: relative;
+  top: 8vh;
+}
+/* side veiw*/
+.introduction{
+    background-color: #3b3b3b;
+    width: 75vh;
+    height:100vh;
+}
+
+.name {
+    font-family: "agencyfb_reg";
+    font-size:9vh;
+    color:#577717;
+    background-color:#b5b5b5;
+    height: 55vh;
+    position: relative;
+    right:0vh;
+    top:0vh;
+    text-align: center;
+}
+
+.sub {
+ font-family: "agencyfb_reg";
+    font-size:9vh;
+    color:#b5b5b5;
+    position: relative;
+    right:0.5vh;
+    top:8vh;
+    text-align: center;
+}
+
+.break {
+ font-family: "SharpsGF";
+    font-size:8vh;
+    color:#b3db26;
+    position: relative;
+    right:0.5vh;
+    top:6vh;
+    text-align: center;
+    text-decoration: underline;
+}
+/* Page text*/
+/*form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #000000;
+  color: #B3DB26;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'agencyfb_reg';
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #71BC7F;
+}
+
+label {
+  color: #000000;
+  font-family: 'SharpsGF';
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #b3db26;
+  padding: 20px;
+}
+
+.com-form {
+  position: relative;
+  bottom: 99vh;
+  left:75vh;
+  height: 0vh;
+  width: 134vh;
+}
+
+.custom-select {
+  display:inline-block;
+  position: relative;
+  font-family: 'SharpsGF';
+}
+article {
+  background-color: #397A84;
+  padding: 20px;
+  background-image: url(Images/website-images/triangle_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+  bottom: 1vh;
+  height: 94.5vh;
+}
+/*Footer Content*/
+ footer {
+background-color: #000000;
+height: 30vh;
+}
+
+.icons {
+  color: #B3DB26;
+}
+.icons a :hover {
+  color: #71BC7F;
+}
+.social-icons {
+  text-align: center;
+  font-family:'agencyfb_reg';
+  color: #B3DB26;
+  font-size: 4vh;
+  line-height: 7vh;
+  position: relative;
+  top: 3vh;
+  
+}
+/*Universal Styling*/
+
+@font-face {
+  font-family:'SharpsGF';
+  src: url('fonts/SharpsGF.ttf') format('truetype');  
+}
+
+@font-face {
+  font-family:'agencyfb_reg';
+  src: url('fonts/agencyfb_reg.ttf') format('truetype');
+}
