@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="veiwport" content="width=device-width intial-scale=1.0" />
+    <title>Anonymous Design</title>
+    <!--Style.css-->
+    <link type="text/css" rel="stylesheet" href="commission-form.css" />
+    <!--FONT AWESOME-->
+    <script
+      src="https://kit.fontawesome.com/116c8a5264.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Favicon Code-->
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="A-D" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  </head>
+  <!--Web Page Code-->
+  <body>
+    <nav class="topnav">
+      <a href="index.html" class="split">HOME</a>
+    </nav>
+    <header>
+      <h2>Commission Form</h2>
+    </header>
+    <main>
+      <section class="introduction">
+        <h3 class="name">
+          Please fill out form to request a commission from Anonymous Design. We
+          will contact you soon after with details and the full price.
+        </h3>
+        <h3 class="break">STARTING PRICE:</h3>
+        <h3 class="sub">INK: $25</h3>
+        <h3 class="sub">MOTION: $60</h3>
+      </section>
+      <!-- Wrap the select box in a ".custom-select" DIV element.
+Remember to set the width: -->
+      <section class="com-form">
+        <article>
+          <div class="custom-select" style="width: 200px">
+            <h3>Anonymous Ink</h3>
+            <select>
+              <option value="0">Select Media:</option>
+              <option value="1">Graphic Design</option>
+              <option value="2">Character design</option>
+              <option value="3">Landscape</option>
+              <option value="4">N/A</option>
+            </select>
+          </div>
+          <!-- Wrap the select box in a ".custom-select" DIV element.
+Remember to set the width: -->
+          <div class="custom-select" style="width: 200px">
+            <h3>Anonymous Motion</h3>
+            <select>
+              <option value="0">Select Media:</option>
+              <option value="1">Live Action</option>
+              <option value="2">Cartoon</option>
+              <option value="3">Collage Animation</option>
+              <option value="4">Logo Animation</option>
+              <option value="5">N/A</option>
+            </select>
+          </div>
+          <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Your name.."
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lastname"
+                    placeholder="Your last name.."
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <textarea
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter details about your commission here and include your email...."
+                    style="height: 200px"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="social-icons">
+        <p class="text-footer">Follow Us</p>
+        <a href="https://instagram.com" class="social-icons home-extension">
+          <i class="fa-brands fa-square-instagram fa-xl"></i>
+        </a>
+        <a href="https://youtube.com" class="social-icons home-extension">
+          <i class="fa-brands fa-youtube fa-xl"></i>
+        </a>
+        <p class="text-footer">&copy;2025 all rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

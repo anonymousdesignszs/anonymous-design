@@ -1,0 +1,190 @@
+/*-- CSS Reset --*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+/* Website CSS code*/
+
+/* Nav Bar */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #577717;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #B3DB26;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'agencyfb_reg', Arial, Helvetica, sans-serif;
+  background-color: #3b3b3b;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #71BC7F;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #3b3b3b;
+  color: #B3DB26;
+}
+  /* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #3b3b3b;
+  color: #B3DB26;
+}
+
+/* Page text*/
+.introduction{
+    background-color: #3b3b3b;
+    width: 75vh;
+    height:100vh;
+}
+img {
+   position: relative;
+   right: 3vh;
+   font-size: large;
+}
+.name {
+    font-family: "agencyfb_reg";
+    font-size:15vh;
+    color:#B3DB26;
+    position: relative;
+    left: 6vh;
+    bottom: 15vh;
+}
+
+.name-me {
+   font-family: "SharpsGF";
+    font-size:6vh;
+    color:#B3DB26;
+    position: relative;
+    left: 17vh;
+    bottom: 15vh;
+}
+
+main {
+    background-image: url(Images/website-images/triangle_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #397A84;
+    width:auto;
+    height:100vh;
+
+}
+/* Header */
+header {
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000;
+    height: 200px;
+    position: relative;
+}
+
+.name {
+  font-family: 'SharpsGf';
+  font-size: 5vh;
+}
+
+h2{
+  font-size: 75px;
+  font-family: 'SharpsGF', Arial, Helvetica, sans-serif;
+  color:#B3DB26;
+  position: relative;
+  top: 8vh;
+}
+
+.text {
+    position: relative;
+    left: 80vh;
+    bottom: 92vh;
+    font-family: 'agencyfb_reg';
+    font-size: 7vh;
+    background-color: white;
+    width: 120vh;
+    padding: 2vh;
+
+}
+/*Footer Content*/
+ footer {
+background-color: #000000;
+height: 30vh;
+}
+
+.icons {
+  color: #B3DB26;
+}
+.icons a :hover {
+  color: #71BC7F;
+}
+.social-icons {
+  text-align: center;
+  font-family:'agencyfb_reg';
+  color: #B3DB26;
+  font-size: 4vh;
+  line-height: 7vh;
+  position: relative;
+  top: 3vh;
+  
+}
+
+
+/*Universal Styling*/
+
+@font-face {
+  font-family:'SharpsGF';
+  src: url('fonts/SharpsGF.ttf') format('truetype');  
+}
+
+@font-face {
+  font-family:'agencyfb_reg';
+  src: url('fonts/agencyfb_reg.ttf') format('truetype');
+}
